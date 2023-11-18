@@ -15,7 +15,7 @@ class Solution
             if(ntemp)
                 ntemp->prev = ptemp;
             ntemp = ptemp;
-        }
+        } 
         return ptemp;
     }
 };

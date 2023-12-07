@@ -17,7 +17,6 @@ class Solution{
             if(a[i] <=R){
 
                 while(a[i] <=R and i < n){
-
                     size++;
 
                     i++;

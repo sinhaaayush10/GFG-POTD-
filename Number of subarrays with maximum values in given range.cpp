@@ -55,7 +55,6 @@ class Solution{
                 } 
 
        }
-
             count-=(size*(size + 1))/2;
 
             if(a[i] >=L){

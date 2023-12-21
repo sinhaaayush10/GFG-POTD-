@@ -11,5 +11,3 @@ class Solution {
         return accumulate(candy.begin(),candy.end(),0);
     }
 };
-
-

@@ -1,22 +1,16 @@
-
-class Solution {
-public:
-    int lengthOfLIS(std::vector<int>& nums) {
-        if (nums.empty()) {
-            return 0;
+class Solution{
+    int mod = 1e9 + 7;
+    public:
+    int TotalWays(int N)
+    {
+        long long prev1 = 1, prev2 = 1;
+        for(int i = 1; i <= N; i++)
+        {
+            long long curr = (prev1 + prev2) % mod;
+            prev2 = prev1;
+            prev1 = curr;
         }
-
-        int n = nums.size();
-        std::vector<int> dp(n, 1);
-
-        for (int i = 1; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = std::max(dp[i], dp[j] + 1);
-                }
-            }
-        }
-
-        return *std::max_element(dp.begin(), dp.end());
+        return (prev1 * prev1)  % mod;
     }
+    
 };

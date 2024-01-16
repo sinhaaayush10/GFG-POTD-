@@ -13,4 +13,3 @@ public:
         return sequence(1, n ,m);
     }
 };
-

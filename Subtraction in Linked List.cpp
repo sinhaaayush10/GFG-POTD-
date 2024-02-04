@@ -15,7 +15,7 @@ public:
             t1 = t1->next;
             t2 = t2->next;
         }
-        
+         
         bool one = true;
         
         if(!t1 or (t2 && t2->data>t1->data)) one = false;

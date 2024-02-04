@@ -18,7 +18,7 @@ public:
           
         bool one = true;
         
-        if(!t1 or (t2 && t2->data>t1->data)) one = false;
+        if(!t1 or (t2 && t2->data>t1->data)) one = false; 
         
         
         int cnt1 = 0, cnt2 = 0;

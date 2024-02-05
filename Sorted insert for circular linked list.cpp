@@ -25,6 +25,6 @@ class Solution
         
         return curr == head && curr->data > data ? node : head;
     }
-
+ 
 
 };

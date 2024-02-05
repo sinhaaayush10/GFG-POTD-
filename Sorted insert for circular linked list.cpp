@@ -6,7 +6,7 @@ class Solution
            Node* node = new Node(data);
            node->next = node;
            
-           return node;
+           return node; 
         }
         
         Node* node = new Node(data), *prev = head, *curr = head->next;

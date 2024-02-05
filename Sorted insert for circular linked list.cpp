@@ -20,7 +20,7 @@ class Solution
             curr = temp;
         }
         
-        prev->next = node;
+        prev->next = node; 
         node->next = curr;
         
         return curr == head && curr->data > data ? node : head;

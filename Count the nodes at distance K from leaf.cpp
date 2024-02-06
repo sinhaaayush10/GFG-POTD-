@@ -8,7 +8,7 @@ class Solution
         
         set<int> left  = getNodes(root -> left, k, result,leaves);
         set<int> right = getNodes(root -> right, k, result, leaves);
-         
+          
         
         set<int> curSet; 
         for(auto it : left) curSet.insert(it+1);

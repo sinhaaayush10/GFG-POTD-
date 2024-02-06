@@ -21,7 +21,7 @@ class Solution
     public:
     //Function to return count of nodes at a given distance from leaf nodes.
     int printKDistantfromLeaf(Node* root, int k)
-    {
+    { 
         int result = 0, leaves = 0;
         
         getNodes(root,k,result,leaves);

@@ -10,7 +10,7 @@ class Solution
         set<int> right = getNodes(root -> right, k, result, leaves);
         
         
-        set<int> curSet;
+        set<int> curSet; 
         for(auto it : left) curSet.insert(it+1);
         for(auto it : right) curSet.insert(it+1);
         

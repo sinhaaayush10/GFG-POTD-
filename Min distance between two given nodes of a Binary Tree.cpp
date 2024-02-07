@@ -4,7 +4,7 @@ class Solution{
     in a tree with given root*/
     int dist(Node* root, int a, int d){
         if(root==NULL){
-            return -1;
+            return -1; 
         }
         if(root->data==a){
             return d;

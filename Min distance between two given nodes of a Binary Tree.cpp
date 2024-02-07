@@ -12,7 +12,7 @@ class Solution{
         
         int left=dist(root->left, a, d+1);
         int right= dist(root->right, a, d+1);
-        
+         
         if(left!=-1) return left;
         if(right!=-1) return right;
         

@@ -15,7 +15,7 @@ class Solution{
                 
                 if(t->left==NULL && t->right==NULL){
                     mila=1;
-                    continue;
+                    continue; 
                 }
                 if(t->left!=NULL)
                     q.push(t->left);

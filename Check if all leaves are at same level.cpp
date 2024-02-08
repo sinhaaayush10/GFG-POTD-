@@ -7,7 +7,7 @@ class Solution{
         int mila=0;
         q.push(root);
         
-        while(!q.empty()){
+        while(!q.empty()){ 
             int n=q.size();
             for(int i=0;i<n;i++){
                 Node* t=q.front();

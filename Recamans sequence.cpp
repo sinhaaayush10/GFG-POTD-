@@ -6,7 +6,7 @@ public:
         sqn.push_back(0);
         st.insert(0);
         
-        for(int i=1; i<=n; i++){
+        for(int i=1; i<=n; i++){ 
             int val= sqn[i-1]-i;
             if(val < 0){
                  val=sqn[i-1]+i;

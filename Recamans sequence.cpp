@@ -3,7 +3,7 @@ public:
     vector<int> recamanSequence(int n){
         vector<int> sqn;
         set<int> st;
-        sqn.push_back(0);
+        sqn.push_back(0); 
         st.insert(0);
         
         for(int i=1; i<=n; i++){ 

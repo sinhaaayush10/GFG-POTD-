@@ -7,7 +7,7 @@ public:
         for(int i=1;i<=n;i++){
             long mul=1;
             for(int j=1;j<=i;j++){
-                mul=(mul*count)%mod;
+                mul=(mul*count)%mod; 
                 count++;
             }
             sum=(sum+mul)%mod;

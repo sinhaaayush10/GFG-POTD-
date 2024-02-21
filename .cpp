@@ -1,6 +1,6 @@
 class Solution
 {   
-    public: 
+    public:  
     //Function for finding determinant of matrix.
     int determinantOfMatrix(vector<vector<int>> &matrix, int n) 
     { 

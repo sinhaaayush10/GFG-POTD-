@@ -1,4 +1,4 @@
-class Solution
+class Solution 
 {   
     public:  
     //Function for finding determinant of matrix.

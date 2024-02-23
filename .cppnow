@@ -5,7 +5,7 @@ public:
 	{
 	    if(n % k)
 	        return 0;
-	        
+	           
 	    map<vector<int>, int> substr;
 	    
 	    vector<int> f(26, 0);

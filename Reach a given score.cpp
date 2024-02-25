@@ -1,7 +1,7 @@
 
 class Solution
 {
-    public:
+    public: 
     // Complete this function
     long long int count(long long int n) 
         vector<int>dp(n+1,0);

@@ -2,7 +2,7 @@
 class Solution{
  void solve(int ind, string &s, string &ds, vector<string> &ans){
             if(ind >= s.size()){
-                if(ds.size() > 0)
+                if(ds.size() > 0) 
                 ans.push_back(ds);
                 return;
             }

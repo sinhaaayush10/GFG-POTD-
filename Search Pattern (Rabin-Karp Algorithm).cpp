@@ -1,6 +1,6 @@
 
 class Solution
-{
+{ 
     public:
         vector <int> search(string pattern, string text)
         {

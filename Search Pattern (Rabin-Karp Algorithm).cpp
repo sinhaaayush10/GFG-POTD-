@@ -1,7 +1,7 @@
  
 class Solution
 {  
-    public:
+    public: 
         vector <int> search(string pattern, string text)
         {
             //code here.

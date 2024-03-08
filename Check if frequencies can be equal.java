@@ -2,7 +2,7 @@ class Solution {
     boolean sameFreq(String s) {
         Map<Character, Integer> frequencyMap = new HashMap<>();
         for (char ch : s.toCharArray()) {
-            frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) + 1);
+            frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) +  1);
             
         }
         Map<Integer, Integer> countMap = new HashMap<>();

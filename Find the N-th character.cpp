@@ -1,7 +1,7 @@
 class Solution{
   public: 
     char nthCharacter(string s, int r, int n) {
-        string temp = s;
+        string temp = s; 
         for (int i = 0;i < r; i++) {
             string ans =  "";
             for (auto j :temp) {

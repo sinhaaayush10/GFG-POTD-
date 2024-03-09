@@ -1,5 +1,5 @@
 class Solution{
-  public:
+  public: 
     char nthCharacter(string s, int r, int n) {
         string temp = s;
         for (int i = 0;i < r; i++) {

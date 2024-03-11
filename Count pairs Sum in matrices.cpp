@@ -1,7 +1,7 @@
 
 class Solution{
 public: 
- 
+  
  bool check(vector<vector<int>> &mat2, int n, int x){
     int i = 0;
     int j = n-1;

@@ -1,5 +1,5 @@
 
-class Solution{
+class Solution{ 
 public: 
   
  bool check(vector<vector<int>> &mat2, int n, int x){

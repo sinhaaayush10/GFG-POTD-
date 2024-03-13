@@ -1,6 +1,6 @@
 class Solution{
   public:
-    vector<int> matrixDiagonally(vector<vector<int>>&mat)
+    vector<int> matrixDiagonally(vector<vector<int>>&mat) 
     {
          int n=mat.size();
         vector<int> ans(n*n,0); 

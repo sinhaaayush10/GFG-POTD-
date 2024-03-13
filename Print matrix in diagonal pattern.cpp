@@ -3,7 +3,7 @@ class Solution{
     vector<int> matrixDiagonally(vector<vector<int>>&mat)
     {
          int n=mat.size();
-        vector<int> ans(n*n,0);
+        vector<int> ans(n*n,0); 
         int k=0;
         
         bool up=true;

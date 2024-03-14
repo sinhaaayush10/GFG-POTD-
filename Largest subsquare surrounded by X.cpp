@@ -1,7 +1,7 @@
 
 class Solution {
   public:
-   int largestSubsquare(int n, vector<vector<char>> a) {
+   int largestSubsquare(int n, vector<vector<char>> a) { 
         // code here
         vector<vector<int>> ver(n , vector<int>(n, 0)) , hor(n , vector<int>(n, 0));
         int side = 0;

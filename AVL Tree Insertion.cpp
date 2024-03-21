@@ -1,7 +1,7 @@
 class Solution{
   public:
   
-    int height(Node* N){
+    int height(Node* N){ 
         if(N==NULL){
             return 0;
         }

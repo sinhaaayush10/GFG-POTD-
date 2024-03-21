@@ -1,5 +1,5 @@
 class Solution{
-  public:  
+  public:   
   vector<vector<int>> sumZeroMatrix(vector<vector<int>> a){
         int n = a.size();
         int m = a[0].size();

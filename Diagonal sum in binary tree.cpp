@@ -3,7 +3,7 @@ class Solution
 {
     public:
     vector <int> diagonalSum(Node* root) {
-        queue<Node*>q;
+        queue<Node*>q; 
         q.push(root);
         vector<int>ans;
         int sum=0;

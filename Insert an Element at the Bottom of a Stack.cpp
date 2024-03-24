@@ -1,5 +1,5 @@
 class Solution{
-public:
+public: 
     stack<int> insertAtBottom(stack<int> st,int x){ 
         vector<int> temp; 
         while(!st.empty()){

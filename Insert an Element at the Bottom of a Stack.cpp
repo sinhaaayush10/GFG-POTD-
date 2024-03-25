@@ -1,7 +1,7 @@
 class Solution{
 public: 
     stack<int> insertAtBottom(stack<int> st,int x){ 
-        vector<int> temp; 
+        vector<int> temp;  
         while(!st.empty()){
             temp.push_back(st.top());
             st.pop();

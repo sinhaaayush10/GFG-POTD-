@@ -2,7 +2,7 @@ class Solution{
     public:
     bool isAdditiveSequence(string n) {
         int size = n.size();
-        for(int j=0;j<min(10,size-2);j++){
+        for(int j=0;j<min(10,size-2);j++){ 
             long long prev1 = stoll(n.substr(0,j+1));
             for(int k=j+1;k<min(10,size-1);k++){
                 long long prev2 = stoll(n.substr(j+1,k-j));

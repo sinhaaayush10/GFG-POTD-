@@ -3,7 +3,7 @@
      int findCity(int n, int m, vector<vector<int>>& edges, int dt) {
         // Your code here 
         vector<pair<int,int>>adj[n];
-        for(int i=0;i<edges.size();i++)
+        for(int i=0;i<edges.size();i++) 
         {
             adj[edges[i][0]].push_back({edges[i][1],edges[i][2]});
             adj[edges[i][1]].push_back({edges[i][0],edges[i][2]});

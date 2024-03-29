@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
 public:
 	
 bool isEularCircuitExist(int v, vector<int>adj[]){

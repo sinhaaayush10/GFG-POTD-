@@ -8,7 +8,7 @@ void fun(Node* root, vector<int>& v) {
 }
 
 void merge(vector<int>& v, int l, int mid, int r, int& count) {
-    vector<int> ans(r - l + 1);
+    vector<int> ans(r - l + 1); 
     int left = l, right = mid + 1, k = 0;
     while (left <= mid && right <= r) {
         if (v[left] <= v[right]) {

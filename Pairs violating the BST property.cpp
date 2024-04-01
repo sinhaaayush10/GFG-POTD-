@@ -3,7 +3,8 @@ class Solution {
 void fun(Node* root, vector<int>& v) {
     if (!root) return;
     fun(root->left, v);
-     v.push_back(root->data);
+     v.push_back(root->data); 
+
     fun(root->right, v);
 }
 

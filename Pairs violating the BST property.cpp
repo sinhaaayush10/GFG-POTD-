@@ -1,4 +1,4 @@
-class Solution {
+ class Solution {
   public:
 void fun(Node* root, vector<int>& v) { 
     if (!root) return;

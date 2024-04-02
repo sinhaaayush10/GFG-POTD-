@@ -1,6 +1,6 @@
 class Solution
 {
-    public:
+    public: 
     void inorder(Node* root,int &ans,int &k)
     {
         if(root==NULL)return;

@@ -4,7 +4,7 @@ class Solution{
 public:
     int minPoints(int M, int N, vector<vector<int>> points) { 
       vector<vector<int>> dp(M, vector<int>(N, 0));
-        dp[M - 1][N - 1] = max(1, 1 - points[M - 1][N - 1]);
+        dp[M - 1][N - 1] = max(1, 1 - points[M - 1][N - 1]); 
         for (int i = M - 2; i >= 0; --i) {
             dp[i][N - 1] = max(1, dp[i + 1][N - 1] - points[i][N - 1]); 
         }

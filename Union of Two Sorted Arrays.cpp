@@ -3,7 +3,7 @@ class Solution{
     //arr1,arr2 : the arrays
     // n, m: size of arrays
     //Function to return a list containing the union of the two arrays.  
-    vector<int> findUnion(int arr1[], int arr2[], int n, int m)
+    vector<int> findUnion(int arr1[], int arr2[], int n, int m) 
     {
         //Your code here
         

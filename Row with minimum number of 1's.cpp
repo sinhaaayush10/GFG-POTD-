@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int minRow(int n, int m, vector<vector<int>> a) {
         // code here
         int mini = INT_MAX ;

@@ -8,7 +8,7 @@ public:
         up[0]=1;
         int mod = 1000000007;
         for(int i=0;i<=x;i++) {
-            vector<int> newUp(y+1,0);
+            vector<int> newUp(y+1,0); 
             for(int j=0;j<=y;j++) {
                 if(j) newUp[j]+=newUp[j-1]+up[j];
                 else newUp[j]=up[j];

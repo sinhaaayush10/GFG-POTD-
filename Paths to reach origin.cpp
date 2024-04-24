@@ -2,7 +2,7 @@ class Solution
 {
 public:
    int ways(int x, int y)
-    {
+    { 
         if(!x or !y) return 1;
         vector<int> up(y+1,0);
         up[0]=1;

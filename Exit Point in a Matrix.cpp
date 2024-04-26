@@ -6,7 +6,7 @@ class Solution {
             d=(d+matrix[i][j])%4;
             if(matrix[i][j]==1)
             matrix[i][j]=0;
-            
+             
             if(d==0){
                 j++;
                 if(j==m)

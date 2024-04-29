@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public:
     Node* deleteK(Node *head,int k){
         if(k==1)return nullptr;

@@ -1,7 +1,7 @@
 class Solution
 {
      bool isVowel(char ch){
-        if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u')
+        if(ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u') 
             return true;
         return false;
     }

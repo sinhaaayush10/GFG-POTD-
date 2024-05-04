@@ -3,7 +3,7 @@ class Solution
     public:
     int find(int in[],int i,int j,int data){
         for(int k=i;k<=j;k++){
-            if(in[k] == data){
+            if(in[k] == data){ 
                 return k;
             }
         }

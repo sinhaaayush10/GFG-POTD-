@@ -3,8 +3,7 @@ class Solution{
     vector <int> verticalSum(Node *root) {
         queue<pair<Node*, int>>q;
         q.push({root,0});
-        map<int,int>umap;
-        while(!q.empty()){
+        map<int,int>umap; 
             Node* curr=q.front().first;
             int level=q.front().second;
             q.pop();

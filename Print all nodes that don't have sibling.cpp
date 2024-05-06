@@ -1,7 +1,7 @@
  void inorder(Node *node, vector<int> &ans){
     if(node == NULL)
         return;
-         
+          
     inorder(node->left, ans);
     
     if(node->left == NULL && node->right != NULL)

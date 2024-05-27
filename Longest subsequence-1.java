@@ -1,5 +1,5 @@
 class Solution {
-    public int longestSubseq(int n, int[] a) {
+    public int longestSubseq(int n, int[] a) { 
         HashMap<Integer, Integer> dp = new HashMap<>();
         int ans = 0;
         for (int i = 0; i < n; i++) { 

@@ -6,7 +6,7 @@ class Solution{
         
         vector<vector<int>> rowPrefix(n + 1, vector<int> (m + 1, 0));
         
-        for(int i = 1; i < n + 1; i++){
+        for(int i = 1; i < n + 1; i++){ 
           for(int j = 1; j < m + 1; j++)
             rowPrefix[i][j] += rowPrefix[i][j - 1] + a[i - 1][j - 1];
         }
